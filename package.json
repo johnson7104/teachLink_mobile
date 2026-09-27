@@ -3,7 +3,7 @@
   "main": "expo-router/entry",
   "version": "1.16.4",
   "scripts": {
-    "start": "expo start",
+    "start": "node api.js && expo start",
     "subset-fonts": "python scripts/subset-fonts.py",
     "reset-project": "node ./scripts/reset-project.js",
     "android": "expo run:android",
@@ -18,7 +18,7 @@
     "format:check": "prettier --check \"**/*.{js,jsx,ts,tsx,json,css,md}\"",
     "lint:staged": "lint-staged",
     "test": "jest",
-    "build": "expo export",
+    "build": "node api.js && expo export",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
     "test:perf": "jest --testPathPattern=perf --runInBand",
