@@ -35,7 +35,6 @@ yarn-error.*
 *.pem
 
 # local env files
-.env
 .env*.local
 
 # typescript
@@ -43,7 +42,6 @@ yarn-error.*
 
 # IDE
 .idea/
-.vscode/
 .vs/
 *.swp
 *.swo
@@ -96,3 +94,4 @@ GoogleService-Info.plist
 branch_structure.json
 temp_auto_push.bat
 temp_interactive_push.bat
+config.bat
